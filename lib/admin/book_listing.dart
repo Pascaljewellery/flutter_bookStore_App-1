@@ -3,7 +3,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:app_book_store/routes/app_routes.dart';
 // import 'package:uuid/uuid.dart';
 
+<<<<<<< Updated upstream
 class BookListPage extends StatefulWidget {
+=======
+class BookListPage extends StatelessWidget {
+>>>>>>> Stashed changes
   const BookListPage({super.key});
 
   @override
@@ -153,7 +157,12 @@ class _BookListPageState extends State<BookListPage> {
                               } catch (e) {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
+<<<<<<< Updated upstream
                                         content: Text('Failed to delete')));
+=======
+                                        content: Text(
+                                            'Failed to delete book : $e')));
+>>>>>>> Stashed changes
                               }
                             }),
                       ],

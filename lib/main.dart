@@ -8,9 +8,12 @@ import 'package:provider/provider.dart';
 import 'package:app_book_store/providers/user_provider.dart';
 import 'package:app_book_store/providers/visibility_provider.dart';
 import 'package:app_book_store/routes/app_routes.dart';
+import 'package:uuid/uuid.dart';
+
 // import  'package:app_book_store';
 
 void main() async {
+  // var uuid = Uuid();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,

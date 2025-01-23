@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+
+>>>>>>> Stashed changes
 import 'package:app_book_store/providers/visibility_provider.dart';
 =======
 >>>>>>> 8e96a0a93746da1d942e7630db857dec84d38b44

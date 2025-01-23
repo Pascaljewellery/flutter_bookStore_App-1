@@ -19,12 +19,20 @@ class _AddBookPageState extends State<AddBookPage> {
   final TextEditingController _priceController = TextEditingController();
   final TextEditingController _descriptionController = TextEditingController();
 
+  final Uuid uuid = Uuid();
   void _submitForm() {
     if (_formKey.currentState!.validate()) {
+<<<<<<< Updated upstream
       final String BookId = uuid.v4();
       // Collect book data
       final book = Book(
         id: BookId, // Generate a unique ID
+=======
+      final String bookId = uuid.v4();
+      // Collect book data
+      final book = Book(
+        id: bookId, // Generate a unique ID
+>>>>>>> Stashed changes
         title: _titleController.text,
         author: _authorController.text,
         price: double.parse(_priceController.text),
