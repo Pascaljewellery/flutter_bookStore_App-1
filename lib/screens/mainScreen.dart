@@ -107,7 +107,11 @@ class MainScreen extends StatelessWidget {
                   "https://i.postimg.cc/Yv2rWshy/03.jpg",
                 ]),
               ),
+<<<<<<< HEAD
               SizedBox(height: 20),
+=======
+              const SizedBox(height: 20),
+>>>>>>> 8e96a0a93746da1d942e7630db857dec84d38b44
               PopularProducts(),
               SizedBox(height: 20),
               RecentlyAddedProducts(),
